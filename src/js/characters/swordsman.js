@@ -1,9 +1,11 @@
 
-import Character from '../character.js';
+import Character from '../characters/character';
 
 class Swordsman extends Character {
-    constructor (name) {
-        super(name, "Swordsman", 40, 10)
+    constructor(name) {
+        super(name, "Swordsman");
+        this.attack = 40;
+        this.defence = 10;
     }
 }
 
