@@ -1,4 +1,3 @@
-import { types } from "@babel/core";
 
 export default class Character {
     constructor(name, type) { 
